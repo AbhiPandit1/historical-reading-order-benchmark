@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>PhD_Sources_Facchinetti_Come_mi_accadde_di_diventare_questore.pdf_page_5.png</fileName>
+      
+    </sourceImageInformation>
+  </Description>
+  
+  <Tags>
+    <OtherTag ID="BT1710" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT1711" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT1804" LABEL="MainZone" DESCRIPTION="block type MainZone"/>
+    <OtherTag ID="LT672" LABEL="CustomLine:footnotes" DESCRIPTION="line type CustomLine:footnotes"/><OtherTag ID="LT673" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/><OtherTag ID="LT674" LABEL="InterlinearLine" DESCRIPTION="line type InterlinearLine"/><OtherTag ID="LT675" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/>
+  </Tags>
+  
+  <Layout>
+    <Page WIDTH="2550"
+          HEIGHT="3300"
+          PHYSICAL_IMG_NR="3"
+          ID="eSc_dummypage_">
+      <PrintSpace HPOS="0"
+                  VPOS="0"
+                  WIDTH="2550"
+                  HEIGHT="3300">
+        
+        <TextBlock HPOS="2132"
+                   VPOS="101"
+                   WIDTH="209"
+                   HEIGHT="104"
+                   ID="eSc_textblock_1889548e"
+                   TAGREFS="BT1710">
+          <Shape><Polygon POINTS="2132 101 2138 199 2341 205 2329 101"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_75df5e64"
+                    TAGREFS="LT675"
+                    BASELINE="2159 148 2317 149" 
+                    HPOS="2156"
+                    VPOS="101"
+                    WIDTH="160"
+                    HEIGHT="55">
+            <Shape><Polygon POINTS="2291 101 2263 101 2236 101 2208 101 2181 101 2156 101 2156 145 2156 156 2313 156 2316 148 2313 101 2291 101"/></Shape>
+	    <String CONTENT="-3-"
+                    HPOS="2156"
+                    VPOS="101"
+                    WIDTH="160"
+                    HEIGHT="55"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="269"
+                   VPOS="240"
+                   WIDTH="2112"
+                   HEIGHT="2913"
+                   ID="eSc_textblock_fbd30b93"
+                   TAGREFS="BT1804">
+          <Shape><Polygon POINTS="269 240 281 3153 2381 3153 2381 240"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_6987044c"
+                    TAGREFS="LT675"
+                    BASELINE="453 308 2305 327" 
+                    HPOS="451"
+                    VPOS="255"
+                    WIDTH="1854"
+                    HEIGHT="83">
+            <Shape><Polygon POINTS="2296 275 2269 275 2241 275 2214 275 2186 275 2159 275 2131 275 2104 275 2076 272 2049 272 2021 272 1994 272 1966 272 1939 272 1911 272 1884 272 1856 272 1829 269 1801 269 1774 269 1746 269 1719 269 1691 269 1664 269 1636 269 1609 266 1581 266 1554 266 1526 266 1499 266 1471 266 1444 266 1416 266 1389 266 1361 264 1334 264 1306 264 1279 264 1251 264 1224 264 1196 264 1169 264 1141 261 1114 261 1086 261 1059 261 1031 261 1004 261 976 261 949 261 921 258 894 258 866 258 838 258 811 258 783 258 756 258 728 258 701 258 673 255 646 255 618 255 591 255 563 255 536 255 508 255 481 255 453 264 453 308 451 319 2299 338 2305 327 2302 275 2296 275"/></Shape>
+	    <String CONTENT="Se, infatti, nei primi tempi furono ovunque accolti, e ospi¬"
+                    HPOS="451"
+                    VPOS="255"
+                    WIDTH="1854"
+                    HEIGHT="83"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_9fd36c89"
+                    TAGREFS="LT675"
+                    BASELINE="302 393 2277 412" 
+                    HPOS="299"
+                    VPOS="338"
+                    WIDTH="1978"
+                    HEIGHT="85">
+            <Shape><Polygon POINTS="302 349 302 393 299 404 2272 423 2277 412 2274 354 316 338 302 349"/></Shape>
+	    <String CONTENT="tati come principi, mano mano che si dilatava e prolungava l&#39;im¬"
+                    HPOS="299"
+                    VPOS="338"
+                    WIDTH="1978"
+                    HEIGHT="85"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_aae85ee3"
+                    TAGREFS="LT675"
+                    BASELINE="299 481 2335 500" 
+                    HPOS="297"
+                    VPOS="426"
+                    WIDTH="2038"
+                    HEIGHT="88">
+            <Shape><Polygon POINTS="299 481 297 492 2329 514 2335 500 2332 445 299 426 299 481"/></Shape>
+	    <String CONTENT="mane flagello, anche la posizione dei graditi ospiti diventava più"
+                    HPOS="297"
+                    VPOS="426"
+                    WIDTH="2038"
+                    HEIGHT="88"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_5f484f94"
+                    TAGREFS="LT675"
+                    BASELINE="297 569 2255 588" 
+                    HPOS="294"
+                    VPOS="514"
+                    WIDTH="1961"
+                    HEIGHT="82">
+            <Shape><Polygon POINTS="297 569 294 577 2250 596 2255 588 2252 533 2002 533 1997 530 1980 517 1977 517 1975 517 1972 517 1774 528 1741 528 1722 528 1620 514 297 514 297 569"/></Shape>
+	    <String CONTENT="critica e più dura la Ioro sorte. - Dal giorno che gli alleati"
+                    HPOS="294"
+                    VPOS="514"
+                    WIDTH="1961"
+                    HEIGHT="82"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_ad86015e"
+                    TAGREFS="LT675"
+                    BASELINE="299 654 2307 665" 
+                    HPOS="297"
+                    VPOS="599"
+                    WIDTH="2010"
+                    HEIGHT="80">
+            <Shape><Polygon POINTS="299 654 297 668 2302 679 2307 665 2305 610 299 599 299 654"/></Shape>
+	    <String CONTENT="occuparono la Tripolitania cessò fra essi e i loro cari ogni cor¬"
+                    HPOS="297"
+                    VPOS="599"
+                    WIDTH="2010"
+                    HEIGHT="80"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_af8cd20a"
+                    TAGREFS="LT675"
+                    BASELINE="297 745 1089 745" 
+                    HPOS="297"
+                    VPOS="687"
+                    WIDTH="792"
+                    HEIGHT="74">
+            <Shape><Polygon POINTS="297 745 297 761 1089 761 1089 745 1089 687 297 687 297 745"/></Shape>
+	    <String CONTENT="rispondenza epistolare. -"
+                    HPOS="297"
+                    VPOS="687"
+                    WIDTH="792"
+                    HEIGHT="74"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_2fec98cf"
+                    TAGREFS="LT675"
+                    BASELINE="448 827 2307 844" 
+                    HPOS="445"
+                    VPOS="770"
+                    WIDTH="1862"
+                    HEIGHT="85">
+            <Shape><Polygon POINTS="448 827 445 838 2302 855 2307 844 2305 786 448 770 448 827"/></Shape>
+	    <String CONTENT="Mano a mano che i bombardamenti e le distruzioni diventavano"
+                    HPOS="445"
+                    VPOS="770"
+                    WIDTH="1862"
+                    HEIGHT="85"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_07af1f2f"
+                    TAGREFS="LT675"
+                    BASELINE="297 918 2338 932" 
+                    HPOS="294"
+                    VPOS="858"
+                    WIDTH="2044"
+                    HEIGHT="85">
+            <Shape><Polygon POINTS="2332 874 2329 869 297 858 297 918 294 937 2332 943 2338 932 2338 871 2332 869 2332 874"/></Shape>
+	    <String CONTENT="più frequenti e più tremende sulle città della Penisola e il suolo"
+                    HPOS="294"
+                    VPOS="858"
+                    WIDTH="2044"
+                    HEIGHT="85"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_ec003d99"
+                    TAGREFS="LT675"
+                    BASELINE="297 1001 2305 1014" 
+                    HPOS="294"
+                    VPOS="943"
+                    WIDTH="2011"
+                    HEIGHT="85">
+            <Shape><Polygon POINTS="297 1001 294 1014 2299 1028 2305 1014 2302 957 297 943 297 1001"/></Shape>
+	    <String CONTENT="stesso della Patria si vide minacciato dall&#39;invasione, i fanciul¬"
+                    HPOS="294"
+                    VPOS="943"
+                    WIDTH="2011"
+                    HEIGHT="85"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_366b8f50"
+                    TAGREFS="LT675"
+                    BASELINE="294 1089 2307 1100" 
+                    HPOS="291"
+                    VPOS="1023"
+                    WIDTH="2016"
+                    HEIGHT="90">
+            <Shape><Polygon POINTS="294 1089 291 1102 2302 1113 2307 1100 2305 1042 294 1023 294 1089"/></Shape>
+	    <String CONTENT="li Libici venivano portati continuamente in località meno perico¬"
+                    HPOS="291"
+                    VPOS="1023"
+                    WIDTH="2016"
+                    HEIGHT="90"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_25bdc6f1"
+                    TAGREFS="LT675"
+                    BASELINE="294 1174 2329 1193" 
+                    HPOS="291"
+                    VPOS="1113"
+                    WIDTH="2038"
+                    HEIGHT="102">
+            <Shape><Polygon POINTS="294 1174 291 1185 2324 1215 2329 1193 2327 1130 294 1113 294 1174"/></Shape>
+	    <String CONTENT="lose; finchè arrivarono i tragici eventi del Iuglio 44 e l&#39;armisti¬"
+                    HPOS="291"
+                    VPOS="1113"
+                    WIDTH="2038"
+                    HEIGHT="102"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_7a7220d7"
+                    TAGREFS="LT675"
+                    BASELINE="297 1265 2255 1278" 
+                    HPOS="294"
+                    VPOS="1190"
+                    WIDTH="1961"
+                    HEIGHT="99">
+            <Shape><Polygon POINTS="297 1265 294 1276 2250 1289 2255 1278 2252 1218 2126 1201 2123 1201 1810 1212 1804 1212 1763 1199 1760 1199 1757 1199 1411 1210 1402 1210 1375 1196 1372 1196 1369 1196 1141 1210 1105 1210 1097 1210 1039 1193 1037 1193 1034 1193 866 1207 852 1207 847 1207 794 1193 792 1193 789 1193 640 1204 610 1190 607 1190 605 1190 297 1201 297 1265"/></Shape>
+	    <String CONTENT="zio dell’8 settembre, dopo il quale gli infelici giovanetti si"
+                    HPOS="294"
+                    VPOS="1190"
+                    WIDTH="1961"
+                    HEIGHT="99"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_4ede1667"
+                    TAGREFS="LT675"
+                    BASELINE="299 1350 2307 1364" 
+                    HPOS="297"
+                    VPOS="1278"
+                    WIDTH="2010"
+                    HEIGHT="97">
+            <Shape><Polygon POINTS="2296 1298 299 1278 299 1350 297 1361 2302 1375 2307 1364 2305 1350 2296 1298"/></Shape>
+	    <String CONTENT="trovarono completamente abbandonati. - Fu primo il Papa PIO XII a"
+                    HPOS="297"
+                    VPOS="1278"
+                    WIDTH="2010"
+                    HEIGHT="97"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_82953667"
+                    TAGREFS="LT675"
+                    BASELINE="299 1435 2299 1452" 
+                    HPOS="297"
+                    VPOS="1364"
+                    WIDTH="2002"
+                    HEIGHT="110">
+            <Shape><Polygon POINTS="299 1435 297 1449 2294 1474 2299 1452 2296 1388 299 1364 299 1435"/></Shape>
+	    <String CONTENT="soccorrerli paternamente, facendoli ricoverare in Collegi ed Isti¬"
+                    HPOS="297"
+                    VPOS="1364"
+                    WIDTH="2002"
+                    HEIGHT="110"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_a0a38825"
+                    TAGREFS="LT675"
+                    BASELINE="299 1518 2302 1534" 
+                    HPOS="299"
+                    VPOS="1452"
+                    WIDTH="2003"
+                    HEIGHT="107">
+            <Shape><Polygon POINTS="299 1518 299 1542 1576 1542 1675 1545 1983 1559 1986 1559 2299 1545 2302 1534 2285 1471 299 1452 299 1518"/></Shape>
+	    <String CONTENT="tuti, in attesa di poter far ritorno alle loro famiglie. - Questo"
+                    HPOS="299"
+                    VPOS="1452"
+                    WIDTH="2003"
+                    HEIGHT="107"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_bf8fb306"
+                    TAGREFS="LT675"
+                    BASELINE="294 1606 2277 1622" 
+                    HPOS="291"
+                    VPOS="1540"
+                    WIDTH="1986"
+                    HEIGHT="101">
+            <Shape><Polygon POINTS="294 1606 291 1617 2272 1641 2277 1622 2277 1556 294 1540 294 1606"/></Shape>
+	    <String CONTENT="stato di cose, durò parecchi mesi e solo nell’autunno del 45 una"
+                    HPOS="291"
+                    VPOS="1540"
+                    WIDTH="1986"
+                    HEIGHT="101"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_6bdc25a7"
+                    TAGREFS="LT675"
+                    BASELINE="294 1691 2266 1716" 
+                    HPOS="291"
+                    VPOS="1619"
+                    WIDTH="1975"
+                    HEIGHT="102">
+            <Shape><Polygon POINTS="294 1691 291 1705 2261 1721 2266 1716 2266 1652 2222 1633 2219 1633 2043 1630 2041 1630 1925 1647 1909 1633 1906 1633 1903 1633 1900 1633 1898 1633 1862 1644 1589 1625 1587 1625 1504 1641 1501 1641 1499 1641 1364 1622 1361 1622 1358 1622 1325 1639 1298 1625 1295 1625 1292 1625 1191 1639 1180 1639 1174 1639 1136 1625 1133 1625 1130 1625 902 1633 899 1633 880 1619 877 1619 874 1619 872 1619 811 1633 805 1633 294 1628 294 1691"/></Shape>
+	    <String CONTENT="nostra nave che riportava in Libia il primo scaglione di libici,"
+                    HPOS="291"
+                    VPOS="1619"
+                    WIDTH="1975"
+                    HEIGHT="102"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_6697cd2e"
+                    TAGREFS="LT675"
+                    BASELINE="294 1782 2302 1795" 
+                    HPOS="291"
+                    VPOS="1716"
+                    WIDTH="2011"
+                    HEIGHT="88">
+            <Shape><Polygon POINTS="2291 1727 294 1716 294 1782 291 1790 2296 1804 2302 1795 2299 1784 2291 1727"/></Shape>
+	    <String CONTENT="approdava felicemente nel porto di Tripoli. - A tutt’oggi, mentre"
+                    HPOS="291"
+                    VPOS="1716"
+                    WIDTH="2011"
+                    HEIGHT="88"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_80cfb925"
+                    TAGREFS="LT675"
+                    BASELINE="294 1867 2244 1881" 
+                    HPOS="291"
+                    VPOS="1801"
+                    WIDTH="1953"
+                    HEIGHT="91">
+            <Shape><Polygon POINTS="294 1867 291 1878 2239 1892 2244 1881 2241 1817 1854 1801 1851 1801 294 1801 294 1867"/></Shape>
+	    <String CONTENT="scrivo queste pagine, altri tre o quattro scaglioni, sempre per"
+                    HPOS="291"
+                    VPOS="1801"
+                    WIDTH="1953"
+                    HEIGHT="91"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_09b0f191"
+                    TAGREFS="LT675"
+                    BASELINE="294 1955 2327 1971" 
+                    HPOS="291"
+                    VPOS="1889"
+                    WIDTH="2036"
+                    HEIGHT="102">
+            <Shape><Polygon POINTS="2313 1903 294 1889 294 1955 291 1963 2321 1991 2327 1971 2321 1936 2313 1903"/></Shape>
+	    <String CONTENT="interessamento del Papa e l’indefesso lavoro della Commissione Pon¬"
+                    HPOS="291"
+                    VPOS="1889"
+                    WIDTH="2036"
+                    HEIGHT="102"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_cd509655"
+                    TAGREFS="LT675"
+                    BASELINE="294 2040 1455 2046 2263 2062" 
+                    HPOS="291"
+                    VPOS="1971"
+                    WIDTH="1972"
+                    HEIGHT="102">
+            <Shape><Polygon POINTS="294 2040 291 2051 2258 2073 2263 2062 2261 1993 1705 1974 1702 1974 1493 1985 1460 1985 1457 1985 1427 1971 1424 1971 1422 1971 294 1971 294 2040"/></Shape>
+	    <String CONTENT="tificia, in accordo col Ministero dell’Africa e con gli AlIeati,"
+                    HPOS="291"
+                    VPOS="1971"
+                    WIDTH="1972"
+                    HEIGHT="102"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_91dce660"
+                    TAGREFS="LT675"
+                    BASELINE="288 2128 2244 2142" 
+                    HPOS="286"
+                    VPOS="2065"
+                    WIDTH="1958"
+                    HEIGHT="88">
+            <Shape><Polygon POINTS="288 2128 286 2145 2239 2153 2244 2142 2244 2079 288 2065 288 2128"/></Shape>
+	    <String CONTENT="riuscirono a rivedere la Quarta Sponda e a riabbracciare i loro"
+                    HPOS="286"
+                    VPOS="2065"
+                    WIDTH="1958"
+                    HEIGHT="88"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_28c91ce7"
+                    TAGREFS="LT675"
+                    BASELINE="291 2219 462 2219" 
+                    HPOS="291"
+                    VPOS="2150"
+                    WIDTH="171"
+                    HEIGHT="88">
+            <Shape><Polygon POINTS="291 2219 291 2238 462 2238 462 2219 462 2164 368 2150 365 2150 291 2164 291 2219"/></Shape>
+	    <String CONTENT="cari."
+                    HPOS="291"
+                    VPOS="2150"
+                    WIDTH="171"
+                    HEIGHT="88"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_4feeb4ed"
+                    TAGREFS="LT675"
+                    BASELINE="434 2307 2305 2318" 
+                    HPOS="434"
+                    VPOS="2233"
+                    WIDTH="1871"
+                    HEIGHT="96">
+            <Shape><Polygon POINTS="434 2307 434 2329 2302 2329 2305 2318 2302 2252 1788 2235 1785 2235 1532 2246 1496 2246 1479 2246 1369 2233 1367 2233 434 2238 434 2307"/></Shape>
+	    <String CONTENT="Ma si tratta di poche migliaia di unità, un terzo forse, si"
+                    HPOS="434"
+                    VPOS="2233"
+                    WIDTH="1871"
+                    HEIGHT="96"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_3495cb72"
+                    TAGREFS="LT675"
+                    BASELINE="288 2392 2244 2406" 
+                    HPOS="286"
+                    VPOS="2329"
+                    WIDTH="1958"
+                    HEIGHT="88">
+            <Shape><Polygon POINTS="288 2392 286 2409 2239 2417 2244 2406 2241 2337 288 2329 288 2392"/></Shape>
+	    <String CONTENT="e no, di coloro che dovrebbero rientrare; gli altri sono sempre"
+                    HPOS="286"
+                    VPOS="2329"
+                    WIDTH="1958"
+                    HEIGHT="88"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_6aea0737"
+                    TAGREFS="LT675"
+                    BASELINE="283 2480 2329 2494" 
+                    HPOS="280"
+                    VPOS="2417"
+                    WIDTH="2049"
+                    HEIGHT="88">
+            <Shape><Polygon POINTS="2324 2428 283 2417 283 2480 280 2491 2324 2505 2329 2494 2329 2442 2324 2428"/></Shape>
+	    <String CONTENT="là, in penosa e sfibrante attesa, nei vari campi di profughi, tali"
+                    HPOS="280"
+                    VPOS="2417"
+                    WIDTH="2049"
+                    HEIGHT="88"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_3ff8dd97"
+                    TAGREFS="LT675"
+                    BASELINE="288 2568 2318 2582" 
+                    HPOS="286"
+                    VPOS="2505"
+                    WIDTH="2032"
+                    HEIGHT="99">
+            <Shape><Polygon POINTS="288 2568 286 2590 2313 2604 2318 2582 2316 2519 288 2505 288 2568"/></Shape>
+	    <String CONTENT="e tante sono le difficoltà politiche, burocratiche e di disorganiz¬"
+                    HPOS="286"
+                    VPOS="2505"
+                    WIDTH="2032"
+                    HEIGHT="99"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_6fcfb4c4"
+                    TAGREFS="LT675"
+                    BASELINE="288 2656 2269 2667" 
+                    HPOS="286"
+                    VPOS="2593"
+                    WIDTH="1983"
+                    HEIGHT="85">
+            <Shape><Polygon POINTS="288 2656 286 2667 2263 2678 2269 2667 2266 2604 288 2593 288 2656"/></Shape>
+	    <String CONTENT="zazione che si frappongono agli ansietati desideri di questi che"
+                    HPOS="286"
+                    VPOS="2593"
+                    WIDTH="1983"
+                    HEIGHT="85"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_4562cc39"
+                    TAGREFS="LT675"
+                    BASELINE="288 2741 2291 2755" 
+                    HPOS="286"
+                    VPOS="2667"
+                    WIDTH="2005"
+                    HEIGHT="102">
+            <Shape><Polygon POINTS="2274 2692 2107 2678 2104 2678 1947 2692 1922 2692 1920 2692 1889 2675 1887 2675 1884 2675 1881 2675 1840 2689 1837 2689 1474 2673 1471 2673 1389 2686 1367 2673 1364 2673 1361 2673 1358 2673 1232 2686 1218 2686 1213 2686 1169 2673 1166 2673 1163 2673 1100 2686 1092 2686 1081 2684 1015 2670 1012 2670 734 2684 690 2684 687 2684 657 2667 654 2667 651 2667 288 2678 288 2741 286 2752 2285 2769 2291 2755 2288 2741 2274 2692"/></Shape>
+	    <String CONTENT="un giorno furono bimbi e giovanette e molti ora sono giovanetti e"
+                    HPOS="286"
+                    VPOS="2667"
+                    WIDTH="2005"
+                    HEIGHT="102"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_0d8dc0ca"
+                    TAGREFS="LT675"
+                    BASELINE="291 2827 1039 2838" 
+                    HPOS="288"
+                    VPOS="2761"
+                    WIDTH="751"
+                    HEIGHT="90">
+            <Shape><Polygon POINTS="291 2827 288 2846 1034 2851 1039 2838 1037 2769 291 2761 291 2827"/></Shape>
+	    <String CONTENT="quasi ragazze da marito."
+                    HPOS="288"
+                    VPOS="2761"
+                    WIDTH="751"
+                    HEIGHT="90"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_0cceeb99"
+                    TAGREFS="LT675"
+                    BASELINE="429 2950 2261 2959" 
+                    HPOS="426"
+                    VPOS="2895"
+                    WIDTH="1835"
+                    HEIGHT="110">
+            <Shape><Polygon POINTS="2244 2904 429 2895 429 2950 426 2997 2255 3005 2261 2959 2255 2939 2244 2904"/></Shape>
+	    <String CONTENT="Da notare che per i ragazzi maschi, che hanno già raggiunto"
+                    HPOS="426"
+                    VPOS="2895"
+                    WIDTH="1835"
+                    HEIGHT="110"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+
+        
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>29_afe0a_default.jpg</fileName>
+      <fileIdentifier>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k9736976f/f30/full/full/0/default.jpg</fileIdentifier>
+    </sourceImageInformation>
+  </Description>
+  
+  <Tags>
+    <OtherTag ID="BT3765" LABEL="CustomZone:section" DESCRIPTION="block type CustomZone:section"/><OtherTag ID="BT3764" LABEL="CustomZone:class" DESCRIPTION="block type CustomZone:class"/><OtherTag ID="BT3763" LABEL="CustomZone:group" DESCRIPTION="block type CustomZone:group"/><OtherTag ID="BT3762" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT3761" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT3760" LABEL="GraphicZone:ornamentation" DESCRIPTION="block type GraphicZone:ornamentation"/><OtherTag ID="BT3759" LABEL="GraphicZone:illustration" DESCRIPTION="block type GraphicZone:illustration"/><OtherTag ID="BT3758" LABEL="CustomZone:entryEnd" DESCRIPTION="block type CustomZone:entryEnd"/><OtherTag ID="BT3757" LABEL="CustomZone:entry" DESCRIPTION="block type CustomZone:entry"/><OtherTag ID="BT3756" LABEL="MainZone" DESCRIPTION="block type MainZone"/>
+    <OtherTag ID="LT1281" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT1280" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/>
+  </Tags>
+  
+  <Layout>
+    <Page WIDTH="2464"
+          HEIGHT="3832"
+          PHYSICAL_IMG_NR="29"
+          ID="eSc_dummypage_">
+      <PrintSpace HPOS="0"
+                  VPOS="0"
+                  WIDTH="2464"
+                  HEIGHT="3832">
+        
+        <TextBlock HPOS="584"
+                   VPOS="443"
+                   WIDTH="94"
+                   HEIGHT="83"
+                   ID="eSc_textblock_536e5ef4"
+                   TAGREFS="BT3761">
+          <Shape><Polygon POINTS="584 443 584 526 678 526 678 443"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="838"
+                   VPOS="459"
+                   WIDTH="1003"
+                   HEIGHT="72"
+                   ID="eSc_textblock_d75bdb10"
+                   TAGREFS="BT3762">
+          <Shape><Polygon POINTS="838 459 838 531 1841 531 1841 459"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="890"
+                   VPOS="800"
+                   WIDTH="895"
+                   HEIGHT="274"
+                   ID="eSc_textblock_b732369a"
+                   TAGREFS="BT3764">
+          <Shape><Polygon POINTS="890 1074 890 800 1785 800 1785 1074"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="538"
+                   VPOS="1157"
+                   WIDTH="921"
+                   HEIGHT="145"
+                   ID="eSc_textblock_92b34dc2"
+                   TAGREFS="BT3757">
+          <Shape><Polygon POINTS="538 1157 538 1302 1459 1302 1459 1157"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="538"
+                   VPOS="1343"
+                   WIDTH="1215"
+                   HEIGHT="476"
+                   ID="eSc_textblock_2be62309"
+                   TAGREFS="BT3757">
+          <Shape><Polygon POINTS="538 1343 538 1819 1753 1819 1753 1343"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="553"
+                   VPOS="1845"
+                   WIDTH="1542"
+                   HEIGHT="284"
+                   ID="eSc_textblock_d42fef70"
+                   TAGREFS="BT3757">
+          <Shape><Polygon POINTS="553 1845 553 2129 2095 2129 2095 1845"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="553"
+                   VPOS="2166"
+                   WIDTH="1557"
+                   HEIGHT="310"
+                   ID="eSc_textblock_119cb68d"
+                   TAGREFS="BT3757">
+          <Shape><Polygon POINTS="553 2166 553 2476 2110 2476 2110 2166"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="559"
+                   VPOS="2507"
+                   WIDTH="1541"
+                   HEIGHT="207"
+                   ID="eSc_textblock_f37f9fbb"
+                   TAGREFS="BT3757">
+          <Shape><Polygon POINTS="559 2507 559 2714 2100 2714 2100 2507"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="559"
+                   VPOS="2750"
+                   WIDTH="1505"
+                   HEIGHT="424"
+                   ID="eSc_textblock_480d72f9"
+                   TAGREFS="BT3757">
+          <Shape><Polygon POINTS="559 2750 559 3174 2064 3174 2064 2750"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="528"
+                   VPOS="697"
+                   WIDTH="1655"
+                   HEIGHT="2565"
+                   ID="eSc_textblock_8d26d312"
+                   TAGREFS="BT3756">
+          <Shape><Polygon POINTS="528 3262 528 697 2183 697 2183 3262"/></Shape>
+          
+        </TextBlock>
+        
+
+        
+        <TextBlock ID="eSc_dummyblock_">
+          
+          
+          <TextLine ID="eSc_line_748e03bc"
+                    
+                    BASELINE="607 504 661 504" 
+                    HPOS="607"
+                    VPOS="472"
+                    WIDTH="54"
+                    HEIGHT="61">
+            <Shape><Polygon POINTS="607 504 607 533 661 523 661 504 639 472 607 504"/></Shape>
+	    <String CONTENT="16"
+                    HPOS="607"
+                    VPOS="472"
+                    WIDTH="54"
+                    HEIGHT="61"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_7beb31b6"
+                    
+                    BASELINE="850 510 1792 510" 
+                    HPOS="846"
+                    VPOS="418"
+                    WIDTH="943"
+                    HEIGHT="115">
+            <Shape><Polygon POINTS="846 507 846 526 1786 533 1789 507 1789 421 1748 418 1744 418 1741 418 1738 418 1738 421 1716 440 1559 421 1553 421 1549 421 1546 421 1543 421 1518 440 846 424 846 507"/></Shape>
+	    <String CONTENT="EXPOSITION UNIVERSELLE DE PARIS 1889"
+                    HPOS="846"
+                    VPOS="418"
+                    WIDTH="943"
+                    HEIGHT="115"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_3fd5ef06"
+                    TAGREFS="LT1280"
+                    BASELINE="1192 852 1450 846" 
+                    HPOS="1188"
+                    VPOS="791"
+                    WIDTH="262"
+                    HEIGHT="103">
+            <Shape><Polygon POINTS="1380 804 1348 804 1316 804 1284 804 1252 804 1220 804 1217 791 1188 791 1192 852 1192 871 1246 871 1252 874 1271 890 1271 894 1275 894 1278 894 1281 894 1364 890 1367 890 1371 890 1380 881 1399 868 1441 884 1450 846 1431 814 1412 804"/></Shape>
+	    <String CONTENT="CLASSE I"
+                    HPOS="1188"
+                    VPOS="791"
+                    WIDTH="262"
+                    HEIGHT="103"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_6437225a"
+                    TAGREFS="LT1280"
+                    BASELINE="891 1018 1757 1018" 
+                    HPOS="891"
+                    VPOS="958"
+                    WIDTH="866"
+                    HEIGHT="105">
+            <Shape><Polygon POINTS="891 1047 1124 1041 1137 1047 1166 1060 1169 1060 1172 1063 1342 1063 1342 1060 1524 1041 1534 1041 1537 1041 1559 1060 1562 1060 1565 1060 1569 1063 1709 1063 1709 1060 1712 1060 1757 1037 1757 1018 1757 964 891 958 891 1018"/></Shape>
+	    <String CONTENT="Peinture à l’huile."
+                    HPOS="891"
+                    VPOS="958"
+                    WIDTH="866"
+                    HEIGHT="105"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_70f87bbd"
+                    TAGREFS="LT1281"
+                    BASELINE="556 1219 1431 1219" 
+                    HPOS="556"
+                    VPOS="1162"
+                    WIDTH="875"
+                    HEIGHT="80">
+            <Shape><Polygon POINTS="1386 1171 1355 1171 1323 1171 1291 1171 1259 1171 1227 1171 1195 1168 1163 1168 1131 1168 1099 1168 1067 1168 1035 1168 1003 1168 971 1165 939 1165 907 1165 875 1165 843 1165 811 1165 779 1165 747 1162 715 1162 683 1162 651 1162 619 1162 588 1162 556 1162 556 1219 556 1242 1431 1235 1431 1219 1431 1162 1418 1162 1418 1171"/></Shape>
+	    <String CONTENT="1. Almeida (de), Rio-de-Janeiro."
+                    HPOS="556"
+                    VPOS="1162"
+                    WIDTH="875"
+                    HEIGHT="80"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_f9ce8c12"
+                    TAGREFS="LT1281"
+                    BASELINE="965 1299 1179 1299" 
+                    HPOS="965"
+                    VPOS="1235"
+                    WIDTH="214"
+                    HEIGHT="99">
+            <Shape><Polygon POINTS="965 1334 1179 1318 1179 1299 1179 1254 965 1235 965 1299"/></Shape>
+	    <String CONTENT="Paysage."
+                    HPOS="965"
+                    VPOS="1235"
+                    WIDTH="214"
+                    HEIGHT="99"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_25cbe375"
+                    TAGREFS="LT1281"
+                    BASELINE="552 1408 1709 1401" 
+                    HPOS="552"
+                    VPOS="1331"
+                    WIDTH="1157"
+                    HEIGHT="115">
+            <Shape><Polygon POINTS="1572 1366 1540 1363 1508 1360 1476 1360 1444 1357 1412 1353 1380 1350 1348 1350 1316 1347 1284 1344 1252 1341 1230 1338 974 1331 965 1350 933 1350 901 1350 869 1350 837 1347 805 1347 773 1347 741 1344 735 1344 725 1347 719 1344 709 1344 677 1344 645 1341 613 1341 581 1341 552 1392 552 1408 552 1446 1124 1427 1140 1433 1150 1443 1153 1443 1156 1443 1160 1443 1163 1443 1195 1433 1217 1427 1319 1430 1597 1443 1601 1443 1709 1421 1709 1401 1633 1369 1604 1369"/></Shape>
+	    <String CONTENT="2. Andrade (Mlle Abigail de), Rio-de-Janeiro."
+                    HPOS="552"
+                    VPOS="1331"
+                    WIDTH="1157"
+                    HEIGHT="115"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_632819ce"
+                    TAGREFS="LT1281"
+                    BASELINE="968 1484 1390 1478" 
+                    HPOS="965"
+                    VPOS="1411"
+                    WIDTH="425"
+                    HEIGHT="99">
+            <Shape><Polygon POINTS="968 1510 1390 1507 1390 1478 1383 1421 965 1411 968 1484"/></Shape>
+	    <String CONTENT="Tableau de genre."
+                    HPOS="965"
+                    VPOS="1411"
+                    WIDTH="425"
+                    HEIGHT="99"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_d3d0b945"
+                    TAGREFS="LT1281"
+                    BASELINE="968 1548 1377 1548" 
+                    HPOS="968"
+                    VPOS="1491"
+                    WIDTH="409"
+                    HEIGHT="89">
+            <Shape><Polygon POINTS="968 1491 968 1548 968 1564 1374 1580 1377 1548 1374 1535 1358 1494"/></Shape>
+	    <String CONTENT="Tableau de genre."
+                    HPOS="968"
+                    VPOS="1491"
+                    WIDTH="409"
+                    HEIGHT="89"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_cac38d21"
+                    TAGREFS="LT1281"
+                    BASELINE="968 1609 1176 1609" 
+                    HPOS="968"
+                    VPOS="1555"
+                    WIDTH="208"
+                    HEIGHT="70">
+            <Shape><Polygon POINTS="968 1625 1176 1625 1176 1609 1176 1558 968 1555 968 1609"/></Shape>
+	    <String CONTENT="Paysage."
+                    HPOS="968"
+                    VPOS="1555"
+                    WIDTH="208"
+                    HEIGHT="70"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_b337865e"
+                    TAGREFS="LT1281"
+                    BASELINE="965 1663 1166 1673" 
+                    HPOS="961"
+                    VPOS="1609"
+                    WIDTH="205"
+                    HEIGHT="83">
+            <Shape><Polygon POINTS="1061 1612 1029 1612 997 1612 965 1609 965 1663 961 1692 1163 1692 1166 1673 1163 1615 1096 1612 1092 1612"/></Shape>
+	    <String CONTENT="Paysage."
+                    HPOS="961"
+                    VPOS="1609"
+                    WIDTH="205"
+                    HEIGHT="83"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_0b166114"
+                    TAGREFS="LT1281"
+                    BASELINE="965 1730 1166 1724" 
+                    HPOS="961"
+                    VPOS="1676"
+                    WIDTH="205"
+                    HEIGHT="73">
+            <Shape><Polygon POINTS="965 1749 1166 1746 1166 1724 1156 1676 961 1676 965 1730"/></Shape>
+	    <String CONTENT="Paysage."
+                    HPOS="961"
+                    VPOS="1676"
+                    WIDTH="205"
+                    HEIGHT="73"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_1e331fd5"
+                    TAGREFS="LT1281"
+                    BASELINE="965 1791 1210 1786" 
+                    HPOS="958"
+                    VPOS="1743"
+                    WIDTH="250"
+                    HEIGHT="64">
+            <Shape><Polygon POINTS="961 1807 1204 1804 1208 1785 1201 1743 958 1743 961 1788"/></Shape>
+	    <String CONTENT="Paysage."
+                    HPOS="958"
+                    VPOS="1743"
+                    WIDTH="250"
+                    HEIGHT="64"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_5e8f7088"
+                    TAGREFS="LT1281"
+                    BASELINE="556 1896 2086 1887" 
+                    HPOS="556"
+                    VPOS="1829"
+                    WIDTH="1530"
+                    HEIGHT="93">
+            <Shape><Polygon POINTS="2022 1848 1991 1848 1959 1848 1927 1848 1895 1848 1863 1848 1831 1845 1799 1845 1767 1845 1735 1845 1703 1845 1671 1845 1639 1845 1607 1845 1575 1842 1543 1842 1511 1842 1479 1842 1447 1842 1415 1842 1383 1842 1351 1842 1319 1839 1287 1839 1255 1839 1224 1839 1192 1839 1160 1839 1128 1839 1096 1839 1064 1836 1051 1829 866 1829 840 1832 808 1836 776 1836 744 1839 712 1839 680 1842 648 1845 616 1845 584 1848 578 1852 556 1896 556 1922 2086 1916 2086 1887 2077 1871 2054 1848"/></Shape>
+	    <String CONTENT="3. Balla (Jules), né à Rio-de-Janeiro, élève de Cabanel et de"
+                    HPOS="556"
+                    VPOS="1829"
+                    WIDTH="1530"
+                    HEIGHT="93"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_9ff25ab6"
+                    TAGREFS="LT1281"
+                    BASELINE="824 1970 1882 1963" 
+                    HPOS="821"
+                    VPOS="1893"
+                    WIDTH="1061"
+                    HEIGHT="106">
+            <Shape><Polygon POINTS="1850 1906 1386 1893 1383 1893 1380 1893 1345 1909 1342 1912 821 1912 824 1970 824 1999 1879 1995 1882 1963 1879 1960 1875 1960"/></Shape>
+	    <String CONTENT="Signol, 233, faubourg Saint-Honoré, Paris."
+                    HPOS="821"
+                    VPOS="1893"
+                    WIDTH="1061"
+                    HEIGHT="106"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_a6c84460"
+                    TAGREFS="LT1281"
+                    BASELINE="961 2046 1674 2040" 
+                    HPOS="958"
+                    VPOS="1970"
+                    WIDTH="716"
+                    HEIGHT="96">
+            <Shape><Polygon POINTS="961 2062 1668 2066 1674 2040 1671 1986 1649 1970 1645 1970 1642 1970 1639 1970 1527 1986 958 1983 961 2046"/></Shape>
+	    <String CONTENT="Paysage. — Palmeiras (Brésil)."
+                    HPOS="958"
+                    VPOS="1970"
+                    WIDTH="716"
+                    HEIGHT="96"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_edd70859"
+                    TAGREFS="LT1281"
+                    BASELINE="961 2110 1674 2110" 
+                    HPOS="961"
+                    VPOS="2056"
+                    WIDTH="713"
+                    HEIGHT="80">
+            <Shape><Polygon POINTS="1639 2056 984 2056 965 2075 961 2110 961 2133 1671 2136 1674 2110 1665 2091 1665 2098"/></Shape>
+	    <String CONTENT="Paysage. — Palmeiras (Brésil)."
+                    HPOS="961"
+                    VPOS="2056"
+                    WIDTH="713"
+                    HEIGHT="80"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_1044c4e2"
+                    TAGREFS="LT1281"
+                    BASELINE="556 2219 2086 2206" 
+                    HPOS="556"
+                    VPOS="2123"
+                    WIDTH="1530"
+                    HEIGHT="109">
+            <Shape><Polygon POINTS="2022 2155 1991 2152 1959 2149 1927 2149 1895 2145 1863 2145 1831 2142 1799 2139 1767 2139 1735 2136 1703 2136 1671 2133 1639 2129 1636 2126 1444 2145 1393 2123 1390 2123 1386 2123 1383 2123 1323 2149 1310 2152 1271 2149 1121 2126 984 2126 968 2142 936 2142 917 2142 914 2149 901 2155 795 2152 776 2155 744 2155 712 2158 680 2161 648 2161 616 2165 584 2168 575 2171 556 2219 556 2232 2086 2228 2086 2206 2080 2149 2054 2145 2054 2155"/></Shape>
+	    <String CONTENT="4. Bérard (Daniel), né à Rio-de-laneiro, élève de Pils,"
+                    HPOS="556"
+                    VPOS="2123"
+                    WIDTH="1530"
+                    HEIGHT="109"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_9f5d3efe"
+                    TAGREFS="LT1281"
+                    BASELINE="827 2286 2083 2280" 
+                    HPOS="824"
+                    VPOS="2212"
+                    WIDTH="1259"
+                    HEIGHT="103">
+            <Shape><Polygon POINTS="1623 2212 1591 2212 1588 2212 1540 2225 1511 2212 1495 2212 1486 2212 1434 2232 914 2232 869 2219 856 2219 827 2219 824 2222 827 2286 827 2305 2077 2315 2083 2280 2077 2228 1684 2212 1655 2212"/></Shape>
+	    <String CONTENT="Lehmann et M. G. Jacquet, 2, rue Aumont-Thiéville,"
+                    HPOS="824"
+                    VPOS="2212"
+                    WIDTH="1259"
+                    HEIGHT="103"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_e8f167c8"
+                    TAGREFS="LT1281"
+                    BASELINE="824 2363 977 2363" 
+                    HPOS="824"
+                    VPOS="2292"
+                    WIDTH="153"
+                    HEIGHT="90">
+            <Shape><Polygon POINTS="824 2363 824 2382 977 2382 977 2363 977 2311 850 2292 824 2340"/></Shape>
+	    <String CONTENT="Paris."
+                    HPOS="824"
+                    VPOS="2292"
+                    WIDTH="153"
+                    HEIGHT="90"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_9bb0757c"
+                    TAGREFS="LT1281"
+                    BASELINE="965 2442 1780 2436" 
+                    HPOS="961"
+                    VPOS="2366"
+                    WIDTH="819"
+                    HEIGHT="96">
+            <Shape><Polygon POINTS="1728 2385 1696 2382 1665 2382 1633 2379 1601 2379 1597 2375 1591 2382 1585 2382 1518 2372 1505 2372 1502 2369 1473 2366 1470 2366 1377 2382 1342 2385 961 2379 965 2442 965 2458 1773 2462 1780 2436 1773 2385 1764 2382 1760 2414"/></Shape>
+	    <String CONTENT="Tabolition de l’esclavage au Brésil."
+                    HPOS="961"
+                    VPOS="2366"
+                    WIDTH="819"
+                    HEIGHT="96"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_dc296fe6"
+                    TAGREFS="LT1281"
+                    BASELINE="552 2551 2086 2538" 
+                    HPOS="552"
+                    VPOS="2484"
+                    WIDTH="1534"
+                    HEIGHT="86">
+            <Shape><Polygon POINTS="2019 2487 1987 2484 965 2484 965 2487 933 2487 901 2487 869 2487 837 2487 805 2487 773 2487 741 2487 709 2487 677 2487 645 2487 613 2487 581 2487 556 2525 552 2551 552 2570 2083 2557 2086 2538 2074 2509 2051 2487"/></Shape>
+	    <String CONTENT="5. Bernardelli (Henri), né à Rio-de-Janeiro. Rome, à l’Ex-"
+                    HPOS="552"
+                    VPOS="2484"
+                    WIDTH="1534"
+                    HEIGHT="86"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_f8fb633a"
+                    TAGREFS="LT1281"
+                    BASELINE="827 2624 1959 2612" 
+                    HPOS="827"
+                    VPOS="2561"
+                    WIDTH="1132"
+                    HEIGHT="95">
+            <Shape><Polygon POINTS="827 2624 827 2656 1955 2637 1959 2612 1949 2561 846 2564 827 2605"/></Shape>
+	    <String CONTENT="position du Palais International des Beaux-Arts."
+                    HPOS="827"
+                    VPOS="2561"
+                    WIDTH="1132"
+                    HEIGHT="95"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_9c89becc"
+                    TAGREFS="LT1281"
+                    BASELINE="961 2704 1227 2704" 
+                    HPOS="961"
+                    VPOS="2634"
+                    WIDTH="266"
+                    HEIGHT="93">
+            <Shape><Polygon POINTS="961 2727 1227 2717 1227 2704 1227 2653 961 2634 961 2704"/></Shape>
+	    <String CONTENT="El-Dorado."
+                    HPOS="961"
+                    VPOS="2634"
+                    WIDTH="266"
+                    HEIGHT="93"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_a89a040d"
+                    TAGREFS="LT1281"
+                    BASELINE="552 2806 1578 2806" 
+                    HPOS="552"
+                    VPOS="2752"
+                    WIDTH="1026"
+                    HEIGHT="90">
+            <Shape><Polygon POINTS="1511 2765 1479 2759 1447 2755 1431 2752 575 2752 556 2781 552 2806 552 2842 1578 2842 1578 2806 1553 2771 1543 2771"/></Shape>
+	    <String CONTENT="6. Ducasble (Alfred), de Pernambuco."
+                    HPOS="552"
+                    VPOS="2752"
+                    WIDTH="1026"
+                    HEIGHT="90"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_eca83de3"
+                    TAGREFS="LT1281"
+                    BASELINE="961 2889 1920 2880" 
+                    HPOS="958"
+                    VPOS="2829"
+                    WIDTH="962"
+                    HEIGHT="76">
+            <Shape><Polygon POINTS="958 2829 961 2889 961 2905 1917 2896 1920 2880 1914 2829 1885 2829"/></Shape>
+	    <String CONTENT="Aurelio de Figueiredo. Zulmira (esquisse)."
+                    HPOS="958"
+                    VPOS="2829"
+                    WIDTH="962"
+                    HEIGHT="76"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_89f80f9b"
+                    TAGREFS="LT1281"
+                    BASELINE="961 2950 1824 2941" 
+                    HPOS="958"
+                    VPOS="2893"
+                    WIDTH="866"
+                    HEIGHT="73">
+            <Shape><Polygon POINTS="961 2966 1821 2963 1824 2941 1815 2893 958 2899 961 2950"/></Shape>
+	    <String CONTENT="Aurelio de Figueiredo. Nature morte."
+                    HPOS="958"
+                    VPOS="2893"
+                    WIDTH="866"
+                    HEIGHT="73"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_02109714"
+                    TAGREFS="LT1281"
+                    BASELINE="965 3008 2013 3001" 
+                    HPOS="961"
+                    VPOS="2944"
+                    WIDTH="1052"
+                    HEIGHT="89">
+            <Shape><Polygon POINTS="1971 2944 1518 2944 1505 2947 1473 2947 1441 2947 1409 2947 1377 2947 1345 2947 1313 2947 1281 2947 1249 2947 1217 2950 1185 2950 1153 2950 1121 2950 1089 2950 1057 2950 1025 2950 993 2950 961 2950 965 3008 965 3020 1927 3033 1930 3033 2013 3014 2013 3001 2006 2947 1984 2944 1984 2972"/></Shape>
+	    <String CONTENT="Duarte. Atelier de serrurier à Rio-de-Janeiro."
+                    HPOS="961"
+                    VPOS="2944"
+                    WIDTH="1052"
+                    HEIGHT="89"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_9acef86d"
+                    TAGREFS="LT1281"
+                    BASELINE="961 3068 1834 3068" 
+                    HPOS="961"
+                    VPOS="3014"
+                    WIDTH="873"
+                    HEIGHT="77">
+            <Shape><Polygon POINTS="961 3068 961 3091 1834 3084 1834 3068 1834 3014 984 3014 961 3030"/></Shape>
+	    <String CONTENT="Léon Righini. Panorama de Maranhaõ."
+                    HPOS="961"
+                    VPOS="3014"
+                    WIDTH="873"
+                    HEIGHT="77"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_e6d63db3"
+                    TAGREFS="LT1281"
+                    BASELINE="968 3129 1840 3129" 
+                    HPOS="968"
+                    VPOS="3075"
+                    WIDTH="872"
+                    HEIGHT="105">
+            <Shape><Polygon POINTS="968 3129 968 3155 1134 3155 1147 3158 1192 3177 1195 3177 1198 3180 1383 3180 1383 3177 1386 3177 1415 3167 1450 3155 1575 3170 1629 3177 1633 3177 1636 3177 1649 3174 1706 3155 1837 3177 1840 3129 1840 3075 993 3075 971 3094"/></Shape>
+	    <String CONTENT="Telles junior. Paysage de Pernambuco."
+                    HPOS="968"
+                    VPOS="3075"
+                    WIDTH="872"
+                    HEIGHT="105"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

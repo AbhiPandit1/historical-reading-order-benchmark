@@ -1,0 +1,8 @@
+# line detector
+ultralytics>=8.1
+huggingface_hub>=0.23
+# baseline segmenter
+kraken>=7.0
+# metrics / io
+pillow>=10.0
+numpy>=1.24

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>PhD_Sources_Facchinetti_Come_mi_accadde_di_diventare_questore.pdf_page_2.png</fileName>
+      
+    </sourceImageInformation>
+  </Description>
+  
+  <Tags>
+    <OtherTag ID="BT1710" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT1711" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT1804" LABEL="MainZone" DESCRIPTION="block type MainZone"/>
+    <OtherTag ID="LT672" LABEL="CustomLine:footnotes" DESCRIPTION="line type CustomLine:footnotes"/><OtherTag ID="LT673" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/><OtherTag ID="LT674" LABEL="InterlinearLine" DESCRIPTION="line type InterlinearLine"/><OtherTag ID="LT675" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/>
+  </Tags>
+  
+  <Layout>
+    <Page WIDTH="2550"
+          HEIGHT="3300"
+          PHYSICAL_IMG_NR="0"
+          ID="eSc_dummypage_">
+      <PrintSpace HPOS="0"
+                  VPOS="0"
+                  WIDTH="2550"
+                  HEIGHT="3300">
+        
+        <TextBlock HPOS="308"
+                   VPOS="305"
+                   WIDTH="2008"
+                   HEIGHT="2921"
+                   ID="eSc_textblock_536afb5c"
+                   TAGREFS="BT1711">
+          <Shape><Polygon POINTS="308 305 308 3226 2316 3226 2316 305"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_2a23a7ec"
+                    TAGREFS="LT673"
+                    BASELINE="720 479 1772 493" 
+                    HPOS="715"
+                    VPOS="404"
+                    WIDTH="1056"
+                    HEIGHT="107">
+            <Shape><Polygon POINTS="715 506 1766 511 1771 492 1771 429 1730 412 1727 412 1724 412 1389 426 1353 426 1331 426 1133 404 1130 404 1127 404 1094 420 921 404 918 404 717 415 717 478"/></Shape>
+	    <String CONTENT="VITTORINO CAMILLO FACCHINETTI"
+                    HPOS="715"
+                    VPOS="404"
+                    WIDTH="1056"
+                    HEIGHT="107"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_f6a76d50"
+                    TAGREFS="LT673"
+                    BASELINE="781 618 1708 627" 
+                    HPOS="778"
+                    VPOS="574"
+                    WIDTH="930"
+                    HEIGHT="64">
+            <Shape><Polygon POINTS="1633 574 1606 574 1578 574 1551 574 1523 574 1496 574 1468 574 1441 574 1413 574 1386 574 1358 574 1331 574 1303 574 1276 574 1248 574 1221 574 1193 574 1166 574 1138 574 1111 574 1083 574 1056 574 1028 574 1001 574 973 574 946 574 918 574 891 574 863 574 836 574 808 574 781 618 778 629 1702 638 1708 627 1688 574 1661 574"/></Shape>
+	    <String CONTENT="Vicario Apostolico di Tripoli"
+                    HPOS="778"
+                    VPOS="574"
+                    WIDTH="930"
+                    HEIGHT="64"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_71a442fc"
+                    TAGREFS="LT673"
+                    BASELINE="745 1298 1766 1292" 
+                    HPOS="742"
+                    VPOS="1221"
+                    WIDTH="1024"
+                    HEIGHT="96">
+            <Shape><Polygon POINTS="1705 1243 1677 1243 1650 1243 1622 1243 1595 1243 1567 1243 1540 1243 1512 1243 1485 1240 1457 1240 1430 1240 1402 1240 1375 1240 1347 1240 1320 1240 1292 1240 1265 1240 1237 1237 1210 1237 1182 1237 1155 1237 1127 1237 1100 1237 1072 1237 1045 1237 1017 1237 990 1234 962 1234 935 1234 907 1234 880 1234 852 1234 825 1234 797 1234 770 1234 767 1221 742 1221 745 1298 745 1317 1766 1309 1766 1292 1757 1243 1733 1243"/></Shape>
+	    <String CONTENT="COME MI ACCADDE DI DIVENTARE"
+                    HPOS="742"
+                    VPOS="1221"
+                    WIDTH="1024"
+                    HEIGHT="96"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_ecfc2bad"
+                    TAGREFS="LT673"
+                    BASELINE="1012 1534 1471 1531" 
+                    HPOS="1012"
+                    VPOS="1487"
+                    WIDTH="459"
+                    HEIGHT="72">
+            <Shape><Polygon POINTS="1422 1487 1394 1487 1367 1487 1339 1487 1312 1487 1284 1487 1257 1487 1229 1487 1202 1487 1174 1487 1147 1487 1119 1515 1092 1515 1064 1515 1053 1515 1012 1534 1012 1559 1468 1559 1471 1531 1466 1487 1449 1487"/></Shape>
+	    <String CONTENT="&quot;QUESTORE&quot;"
+                    HPOS="1012"
+                    VPOS="1487"
+                    WIDTH="459"
+                    HEIGHT="72"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_77143867"
+                    TAGREFS="LT673"
+                    BASELINE="1780 2890 2137 2876" 
+                    HPOS="1777"
+                    VPOS="2802"
+                    WIDTH="357"
+                    HEIGHT="115">
+            <Shape><Polygon POINTS="1779 2917 2134 2915 2134 2873 2126 2802 1777 2824 1779 2887"/></Shape>
+	    <String CONTENT="giugno 1946"
+                    HPOS="1777"
+                    VPOS="2802"
+                    WIDTH="357"
+                    HEIGHT="115"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+
+        
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

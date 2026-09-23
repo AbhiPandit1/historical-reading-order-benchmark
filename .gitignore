@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+# LaTeX build artifacts (keep paper.tex and paper.pdf)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/build*.log
+paper/b1.log
+paper/b2.log
+paper/b3.log
