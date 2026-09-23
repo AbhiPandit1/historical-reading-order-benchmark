@@ -2,6 +2,8 @@
 
 ### A multilingual benchmark of line detection and reading order on historical documents
 
+Also available as a dataset on Hugging Face: https://huggingface.co/datasets/abhishekjha1008/historical-reading-order-benchmark
+
 Finding the text lines on a historical page is close to solved. Deciding the
 *order* in which to read them is not. On a single column the two questions
 collapse into one, so the problem stays hidden until the layout has more than one
