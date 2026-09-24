@@ -390,6 +390,17 @@ not the hard manuscripts. Reported as an average this would flatter them; report
 per page, with the validity guard, it correctly reads as a detection failure on
 historical handwriting.
 
+\textbf{Even a commercial system is not immune.} As a spot check we ran
+Transkribus (the Text Titan II super-model, via the web app) on three of the
+multi-column pages. It detected lines almost perfectly and ordered the two
+handwritten manuscripts flawlessly (Swedish court hand and Middle-French, \tw{}
+$=1.00$), but on the two-column printed English page it read \emph{across} the
+columns line by line, scoring \tw{} $=0.51$ --- the same collapse as the pure
+detectors, on the layout that looks easiest. Reading order is not something a
+strong recognition model can be assumed to get for free; it depends on the layout
+segmentation, and even a leading commercial system can miss it on clean
+multi-column print.
+
 \section{Limitations and honesty notes}
 \label{sec:honesty}
 
