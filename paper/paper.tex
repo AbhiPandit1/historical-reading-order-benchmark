@@ -404,6 +404,19 @@ something a strong recognition model can be assumed to get for free; it depends 
 the layout segmentation, and even a leading commercial system can miss it on clean
 multi-column print.
 
+\textbf{Different systems fail on different layouts.} Running PaddleOCR's
+PP-StructureV3 (a production document-parsing pipeline) on the same three pages
+gives the \emph{mirror image} of Transkribus: it orders the two-column printed
+English page well (\tw{} $=0.94$) but scrambles the Swedish handwritten court
+record (\tw{} $=0.44$), while Transkribus does the opposite. Each off-the-shelf
+system carries the blind spot of its training domain --- the print-oriented
+pipeline handles printed columns but not handwritten ones, and the
+handwriting-oriented system the reverse. Neither is robust across both, whereas
+the fast detector with a column-clustering stage stays at \tw{} $\approx 0.99$ on
+every multi-column layout tested. This is the strongest argument for measuring
+reading order explicitly and for pairing detection with an explicit, layout-agnostic
+ordering step rather than trusting any single system's native order.
+
 \section{Limitations and honesty notes}
 \label{sec:honesty}
 
