@@ -55,9 +55,16 @@ collapse on reading order for multi-column pages (\tw{} $\approx 0.5$, close to
 random), while layout-aware systems hold \tw{} $\approx 0.97$--$1.00$. The effect
 is confined to multi-column layouts and is \emph{era-invariant}: it appears
 identically on a seventeenth-century Swedish handwritten court record and a
-twentieth-century printed English page. We argue that reading order should be
-reported as a first-class metric alongside recognition accuracy, and release the
-data, ground truth and a reproducible harness.
+twentieth-century printed English page. We then show that the gap is not
+intrinsic to fast detectors: adding a cheap column-clustering ordering stage on
+top of the same detected boxes raises multi-column \tw{} from $0.50$ to $0.99$
+(95\% CI $[0.98,1.00]$), statistically indistinguishable from the layout-aware
+segmenter, at roughly nine times the speed. A downstream analysis makes the stake
+concrete: assuming perfect line recognition, naive ordering alone inflicts a
+median $82\%$ word error on multi-column pages, which the ordering stage cuts to
+$2\%$. We argue that reading order should be reported as a first-class metric
+alongside recognition accuracy, and release the data, ground truth, predictions
+and a reproducible harness.
 \end{abstract}
 
 \section{Introduction}
@@ -252,14 +259,84 @@ layout, not of date or hand.}
 \label{fig:swe}
 \end{figure}
 
+\section{Recovering reading order with a cheap ordering stage}
+\label{sec:recover}
+
+The results so far show \emph{that} pure detectors lose reading order, but not
+\emph{why} in a useful sense: we deliberately gave them the naive top-to-bottom
+sort. The question a practitioner actually cares about is whether that gap is
+intrinsic to a fast detector, or an accident of the ordering heuristic. We test
+this directly by holding detection fixed --- the exact same YOLO and Surya boxes
+--- and swapping only the ordering rule.
+
+\textbf{Ordering rules.} We compare three geometric rules applied to the detected
+boxes: (i) \emph{top-to-bottom}, the naive baseline; (ii) \emph{column
+clustering}, which groups boxes into columns by horizontal gaps between box
+centres, reads each column top-to-bottom and columns left-to-right; and (iii)
+\emph{XY-cut}~\cite{xycut}, recursive projection profiling. None uses learning or
+page content; all run in negligible time relative to detection.
+
+\begin{table}[t]
+\centering
+\caption{Reading-order \tw{} on multi-column pages with detection held fixed;
+only the ordering rule changes. Column clustering closes the gap to the
+layout-aware segmenter. Means with 95\% bootstrap CIs over pages ($n=15$).}
+\label{tab:ordering}
+\begin{tabular}{lccc}
+\toprule
+Ordering on YOLO boxes & English & Swedish & Middle-Fr. \\
+\midrule
+top-to-bottom (naive)     & $0.50$ & $0.47$ & $0.52$ \\
+XY-cut                    & $0.50$ & $0.47$ & $0.52$ \\
+\textbf{column clustering}& $\mathbf{0.99}$ & $\mathbf{1.00}$ & $\mathbf{0.98}$ \\
+\midrule
+kraken (native, ref.)     & $0.97$ & $1.00$ & $1.00$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{A cheap ordering stage recovers the gap.} Table~\ref{tab:ordering} and
+Figure~\ref{fig:ordering}(a) give the result. Column clustering lifts multi-column
+\tw{} from $0.50$ $[0.47,0.54]$ to $0.99$ $[0.98,1.00]$ --- a paired gain of
+$+0.49$ $[0.44,0.53]$ whose confidence interval excludes zero --- landing on the
+layout-aware segmenter's $0.99$ $[0.98,1.00]$, i.e.\ statistically
+indistinguishable from it. XY-cut, by contrast, does \emph{not} help here:
+full-width running heads bridge the columns and defeat the vertical projection
+cut, a known failure mode that centre-based clustering avoids. The reading-order
+gap is therefore not intrinsic to a fast detector; it is an artefact of the
+ordering heuristic, and a trivial geometric stage removes it.
+
+\textbf{Downstream stake.} Kendall \tw{} is abstract, so we translate it into text
+error. Assuming a perfect line recogniser (we substitute each detected line with
+its ground-truth transcription and vary only the order), we concatenate the lines
+in each system's order and measure the word error against the correctly ordered
+text. Figure~\ref{fig:ordering}(b): on multi-column pages naive ordering alone
+inflicts a median $82\%$ word error (Swedish $93\%$) --- a clean line-level
+transcription rendered unusable purely by order --- which column clustering cuts
+to $2\%$, matching kraken. On single-column pages every method stays near $2\%$.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\linewidth]{ordering_control.png}
+\caption{Holding detection fixed on multi-column pages. (a) A column-clustering
+ordering stage on the fast detector recovers reading-order \tw{} to the
+layout-aware segmenter's level. (b) The same stage cuts order-induced word error
+(perfect line recognition assumed) from a median $82\%$ to $2\%$.}
+\label{fig:ordering}
+\end{figure}
+
 \section{Discussion}
 
-\textbf{A two-tier recommendation.} The fast detector is roughly nine times
-quicker per page than kraken, and on single-column material it is already
-sufficient. The practical rule the numbers point to is: single column, use a fast
-detector; multi-column, either pay for native ordering (kraken) or add an explicit
-geometric ordering stage (for example XY-cut~\cite{xycut} or column clustering) on
-top of the detector. Speed is real, but it is not free on complex layouts.
+\textbf{Fast detection plus cheap ordering is enough.} The headline practical
+finding is that one does not need a heavier layout-aware segmenter to get correct
+reading order on these pages. A fast box detector, roughly nine times quicker per
+page than kraken, plus a column-clustering ordering stage that costs negligible
+time, matches the layout-aware segmenter on reading-order \tw{}
+(Section~\ref{sec:recover}) and on the resulting text error. The heavy segmenter's
+advantage over a naive detector was real but recoverable; it was the ordering
+step, not the segmentation model, that mattered. The recommendation is therefore
+not two-tier but simple: pair a fast detector with an explicit ordering stage,
+and reserve heavier segmenters for cases the geometric rule cannot handle.
 
 \textbf{Era-invariance.} That the same detection-versus-order split appears on a
 seventeenth-century Swedish manuscript and a twentieth-century printed English
@@ -285,20 +362,30 @@ what it refuses to claim. Reading order is scored only where detection succeeded
 every system, including the layout-aware ones, detects substantially more lines
 than the ground truth lists --- so its F and \tw{} are not comparable, and this is
 a ground-truth coverage issue rather than a system result. Five pages per language
-is enough to establish the effect cleanly but not to rank systems finely; the
-natural next steps are more pages, datasets with explicit region and
-reading-order ground truth such as cBAD~\cite{cbad} and DIVA-HisDB~\cite{divahisdb},
-and a measured geometric ordering stage on top of the
-fast detector.
+is enough to establish the effects cleanly and with confidence intervals that
+exclude the null, but not to rank systems finely; the ordering stage is evaluated
+only against document-order ground truth, which is itself an editorial choice on
+the hardest pages. The natural next steps are (i) scaling to dozens of pages per
+language for finer ranking; (ii) datasets with explicit region and reading-order
+ground truth, such as cBAD~\cite{cbad} and DIVA-HisDB~\cite{divahisdb}; (iii)
+adding heavier segmenters and pipelines (Transkribus~\cite{transkribus}, Loghi
+with Laypa, PaddleOCR PP-Structure) and learned reading-order models; and (iv)
+reporting additional order metrics beyond Kendall \tw{} for robustness. The
+downstream analysis assumes perfect line recognition to isolate ordering; a full
+end-to-end study would compose real recognition error with the ordering error.
 
 \section{Conclusion}
 
 On historical documents, line detection is close to solved and is no longer what
 separates segmentation systems; reading order is, and only on multi-column
-layouts. We recommend that reading order be measured and reported as a first-class
-metric alongside recognition accuracy, and release the pages, ground truth,
-predictions and a reproducible scoring harness so the measurement is easy to
-repeat and extend.
+layouts. But that gap is not intrinsic to fast detectors: a trivial
+column-clustering ordering stage recovers it to the level of a heavier
+layout-aware segmenter, statistically and in downstream word error, at a fraction
+of the cost. The practical takeaway is to pair a fast detector with an explicit
+ordering stage rather than reach for a heavier model. More broadly, we recommend
+that reading order be measured and reported as a first-class metric alongside
+recognition accuracy, and we release the pages, ground truth, predictions and a
+reproducible scoring harness so the measurement is easy to repeat and extend.
 
 \vspace{0.5em}
 \small
