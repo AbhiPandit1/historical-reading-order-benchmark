@@ -14,10 +14,12 @@ segmentation system two separate questions — **did you find the lines?** and
 
 ## The headline
 
-Five systems, 40 pages, eight languages, scored on real ground truth. Detection F
-is line-detection at IoU ≥ 0.5; reading-order τ is the Kendall correlation
-between the predicted order and the ground-truth document order, measured **only
-on the lines a system actually detected**.
+The core detection panel, 40 pages, eight languages, scored on real ground truth.
+Detection F is line-detection at IoU ≥ 0.5; reading-order τ is the Kendall
+correlation between the predicted order and the ground-truth document order,
+measured **only on the lines a system actually detected**. (Three more systems —
+Transkribus, PP-StructureV3 and LayoutReader — appear in the layout-robustness
+comparison below.)
 
 | System | Detection F | Reading-order τ | Speed (s/page) |
 |--------|:---:|:---:|:---:|
@@ -30,6 +32,47 @@ on the lines a system actually detected**.
 Read it across, not down. **kraken and the YOLO box-detector tie on detection
 (F 0.91).** They diverge only on reading order — and that divergence lives
 entirely on the multi-column pages.
+
+## The resolution: the tax is refundable
+
+The reading-order gap is **not intrinsic** to a fast detector — it is an artefact
+of the naive top-to-bottom sort. Holding detection fixed and swapping only the
+ordering rule, a trivial **column-clustering** stage on the same YOLO boxes lifts
+multi-column τ from **0.50 → 0.99** (95% CI [0.98, 1.00]) — statistically
+indistinguishable from the layout-aware segmenter, at ~9× the speed.
+
+| Ordering on the same fast-detector boxes | multi-column τ |
+|---|:---:|
+| top-to-bottom (naive) | 0.50 |
+| XY-cut | 0.50 |
+| **column clustering** | **0.99** |
+| kraken (native, reference) | 0.99 |
+
+**Downstream stake:** assuming perfect line recognition, naive ordering alone
+inflicts a **median 82% word error** on multi-column pages (Swedish 93%); the
+column-clustering stage cuts it to **2%**.
+
+## No off-the-shelf system is robust across layouts
+
+Every native, commercial, production, or learned system carries the blind spot of
+its training domain. Only a fast detector **+ an explicit ordering stage** holds
+everywhere.
+
+| System (family) | English 2-col print | Swedish court hand | Middle-French ms |
+|---|:---:|:---:|:---:|
+| **YOLO + column-clustering** | **0.99** | **1.00** | **0.98** |
+| kraken (native) | 0.97 | 1.00 | 1.00 |
+| Transkribus (commercial) | 0.51 ❌ | 1.00 | 1.00 |
+| PP-StructureV3 (production) | 0.94 | 0.44 ❌ | 1.00 |
+| LayoutReader (learned) | 0.16 ❌ | 0.15 ❌ | 0.12 ❌ |
+| YOLO / Surya (naive) | 0.50 ❌ | 0.47 ❌ | 0.52 ❌ |
+
+Transkribus nails handwriting but scrambles printed columns; PP-Structure does the
+mirror opposite; a learned reading-order model (LayoutReader, trained on modern
+documents) fails everywhere, worse than the naive sort. The cheap geometric stage
+is the only uniformly robust option. Full method, confidence intervals and the
+cross-collection scale-up (English ×8, Swedish ×28 across two archives each) are in
+[`paper/paper.pdf`](paper/paper.pdf).
 
 ## Where the tax is paid
 
@@ -121,14 +164,19 @@ what it refuses to claim:
 | System | Family | Reading order |
 |--------|--------|---------------|
 | kraken `blla` | baseline + region segmentation | native |
-| YOLOv8m line detector | box detection, domain-adapted for historical hands | none (top-to-bottom here) |
+| YOLOv8m line detector | box detection, domain-adapted for historical hands | none (naive / column-clustering / XY-cut here) |
 | Surya | detection model | none (top-to-bottom here) |
 | docTR (DBNet) | detection + recognition | native |
 | Tesseract | layout analysis + OCR | layout-aware |
+| Transkribus (Text Titan II) | commercial HTR | native |
+| PaddleOCR PP-StructureV3 | production document parsing | native (region reading order) |
+| LayoutReader | learned reading-order (ReadingBank) | learned |
 
 The YOLO detector is the runnable model from
 [danish-htr-line-segmenter](https://github.com/AbhiPandit1/danish-htr-line-segmenter);
-kraken uses its default `blla` segmentation model.
+kraken uses its default `blla` segmentation model. Transkribus was run via its web
+app; PP-StructureV3 and LayoutReader were run as Azure Container Apps jobs (their
+full pipelines are too heavy for local CPU) — see `experiments/`.
 
 ## Methods — exactly how each system was run
 
@@ -229,10 +277,16 @@ lets a box detector recover column structure.
 
 ## Status
 
-An early, honest pilot: five systems, 40 pages, eight languages and roughly four
-centuries, a reproducible harness, and one clearly measured effect that survives
-its own caveats. Intended to grow into a fuller multi-system study, aimed at the
-ICDAR HiP workshop.
+A careful multi-system study: **eight** segmentation systems (native, commercial,
+production and learned), 40 pages across eight languages and roughly four
+centuries, an ordering-control experiment with bootstrap confidence intervals, a
+downstream word-error analysis, cross-collection scale-ups (English ×8, Swedish
+×28), and one clearly measured effect that survives its own caveats. Aimed at the
+ICDAR HiP / IJDAR track.
+
+> The original 2-system, 15-page pilot draft is preserved at the
+> [`v1-pilot`](https://github.com/AbhiPandit1/historical-reading-order-benchmark/releases/tag/v1-pilot)
+> tag.
 
 ## Author
 
