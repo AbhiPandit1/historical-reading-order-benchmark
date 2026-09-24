@@ -413,9 +413,14 @@ system carries the blind spot of its training domain --- the print-oriented
 pipeline handles printed columns but not handwritten ones, and the
 handwriting-oriented system the reverse. Neither is robust across both, whereas
 the fast detector with a column-clustering stage stays at \tw{} $\approx 0.99$ on
-every multi-column layout tested. This is the strongest argument for measuring
+every multi-column layout tested. A \emph{learned} reading-order model does not
+rescue the situation either: LayoutReader~\cite{layoutreader}, trained on the
+modern ReadingBank corpus, run on the same detected boxes scrambles the order on
+all three pages (\tw{} $=0.16$, $0.15$, $0.12$; mean $0.14$) --- worse than the
+naive top-to-bottom sort --- because historical dense multi-column material is far
+out of its training distribution. This is the strongest argument for measuring
 reading order explicitly and for pairing detection with an explicit, layout-agnostic
-ordering step rather than trusting any single system's native order.
+ordering step rather than trusting any single system's native or learned order.
 
 \section{Limitations and honesty notes}
 \label{sec:honesty}
