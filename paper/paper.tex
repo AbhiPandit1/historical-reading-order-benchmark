@@ -89,6 +89,33 @@ right order?} We find that modern detectors have largely solved the first and th
 the second is where systems still diverge sharply --- but only on multi-column
 material.
 
+\section{Related work}
+
+\textbf{Layout analysis and line detection.} Historical page segmentation is
+served by neural systems such as kraken's \texttt{blla}~\cite{kraken}, Laypa
+(used in the Loghi pipeline), dhSegment~\cite{dhsegment} and eynollah, and by
+baseline-detection methods evaluated in the cBAD competitions~\cite{cbad}.
+General object detectors such as YOLO~\cite{yolov8} have been adapted to line
+detection with strong results. These systems are typically scored on region or
+baseline overlap; the order their output implies is rarely evaluated separately.
+
+\textbf{Reading-order determination.} Ordering detected regions has a long
+history, from recursive XY-cut~\cite{xycut} and topological or graph-based
+sorting to learned approaches: LayoutReader~\cite{layoutreader} casts reading
+order as a sequence-to-sequence problem over layout tokens. Most such work
+targets modern printed documents (forms, scientific papers) where ground-truth
+reading order is abundant; early-modern manuscript pages with multi-column and
+marginal structure are far less studied, and rarely with the detector held fixed
+so that ordering can be isolated.
+
+\textbf{HTR pipelines and error attribution.} End-to-end toolchains ---
+Transkribus~\cite{transkribus}, kraken~\cite{kraken}, and neural recognisers such
+as PyLaia~\cite{pylaia} --- bundle segmentation, ordering and recognition, which
+makes it hard to see where error originates. A recurring practical observation is
+that much of what looks like recognition error is really segmentation or ordering
+error upstream. This benchmark isolates the ordering component and measures both
+its intrinsic quality (Kendall \tw{}) and its downstream cost in text error.
+
 \section{Data}
 
 We use 40 scored pages, five per language, across eight languages, drawn from
@@ -315,6 +342,17 @@ inflicts a median $82\%$ word error (Swedish $93\%$) --- a clean line-level
 transcription rendered unusable purely by order --- which column clustering cuts
 to $2\%$, matching kraken. On single-column pages every method stays near $2\%$.
 
+\textbf{Scaling and cross-collection check.} To confirm the effect is not an
+artefact of five pages, we scale the Swedish evaluation to $28$ pages drawn from
+\emph{two} independent Riksarkivet collections --- G\"ota hovr\"att appeal-court
+protocols and the Trolldomskommissionen (witchcraft-commission) records. The
+result holds and tightens: reading-order \tw{} moves from $0.51$ $[0.47,0.56]$ for
+naive ordering to $1.00$ $[0.99,1.00]$ for column clustering, matching kraken's
+$1.00$ $[1.00,1.00]$; order-induced word error falls from $85\%$ $[77,91]$ to
+$1\%$ $[0,2]$. That the same recovery appears on a second, independently produced
+Swedish court-hand collection indicates the finding generalises beyond a single
+archive.
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.92\linewidth]{ordering_control.png}
@@ -426,6 +464,12 @@ ICDAR}, pp.~1355--1360, 2017.
 \bibitem{divahisdb} F.~Simistira, M.~Seuret, N.~Eichenberger, A.~Garz,
 M.~Liwicki, and R.~Ingold. \emph{DIVA-HisDB: a precisely annotated large dataset
 of challenging medieval manuscripts}. In \emph{15th ICFHR}, pp.~471--476, 2016.
+\bibitem{dhsegment} S.~Ares Oliveira, B.~Seguin, and F.~Kaplan. \emph{dhSegment: a
+generic deep-learning approach for document segmentation}. In \emph{16th ICFHR},
+pp.~7--12, 2018.
+\bibitem{layoutreader} Z.~Wang, Y.~Xu, L.~Cui, J.~Shang, and F.~Wei.
+\emph{LayoutReader: pre-training of text and layout for reading order detection}.
+In \emph{EMNLP}, pp.~4735--4744, 2021.
 \end{thebibliography}
 
 \end{document}
